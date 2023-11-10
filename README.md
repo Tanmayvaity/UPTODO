@@ -3,8 +3,8 @@
 
 ## App WorkFlow
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Tanmayvaity/UPTODO/assets/72547713/b1af1c74-842f-4310-8562-53c283781776">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Tanmayvaity/UPTODO/assets/72547713/82da179e-954f-4c40-afca-5b6b5b6ef105#gh-light-mode-only">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Tanmayvaity/UPTODO/assets/72547713/778d1833-4e8f-4de1-b2ff-1e3b335bc75c">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Tanmayvaity/UPTODO/assets/72547713/00772620-8f7c-4871-9ee0-53cde09fc95d">
   <img alt="App Workflow" >
 </picture>
 
