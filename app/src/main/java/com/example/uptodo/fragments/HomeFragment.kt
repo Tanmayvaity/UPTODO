@@ -1,5 +1,6 @@
 package com.example.uptodo.fragments
 
+import android.content.Intent
 import android.graphics.Color
 import android.graphics.LinearGradient
 import android.graphics.Shader
@@ -11,6 +12,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.core.content.ContextCompat
 import com.example.uptodo.R
+import com.example.uptodo.activities.LoginActivity
 import com.example.uptodo.databinding.FragmentHomeBinding
 
 
@@ -43,7 +45,20 @@ class HomeFragment : Fragment() {
         )
 
 
+        binding.trailTv.setOnClickListener{
+
+            Intent(view.context,LoginActivity::class.java).apply{
+                startActivity(this)
+            }
+
+        }
+
+
+
+
     }
+
+
 
 
     override fun onDestroyView() {

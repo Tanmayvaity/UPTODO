@@ -8,6 +8,8 @@
     <color name = "purple">#B634C5</color>
     <color name = "transparent">@android:color/transparent</color>
     <color name = "gray">#808080</color>
+    <color name = "mariner">#3b5998</color>
+    <color name = "fun_blue">#2F477A</color>
 
 
 </resources>
