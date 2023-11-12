@@ -24,10 +24,10 @@ class LoginActivity : AppCompatActivity() {
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        setSupportActionBar(binding.tbAuth)
-        supportActionBar?.setDisplayShowTitleEnabled(false)
-        supportActionBar?.setDisplayShowHomeEnabled(true)
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+//        setSupportActionBar(binding.tbAuth)
+//        supportActionBar?.setDisplayShowTitleEnabled(false)
+//        supportActionBar?.setDisplayShowHomeEnabled(true)
+//        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         setSpanTextColor()
 
     }
@@ -38,6 +38,7 @@ class LoginActivity : AppCompatActivity() {
             override fun onClick(view: View) {
                 Intent(this@LoginActivity,SignUpActivity::class.java).apply {
                     startActivity(this)
+                    finish()
                 }
 
             }
@@ -49,19 +50,19 @@ class LoginActivity : AppCompatActivity() {
 
         }
         spannable.setSpan(clickableSpan,23,text.length,Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
-        binding.tvSignUpQuestion.setText(spannable)
+        binding.tvSignUpQuestion.text = spannable
         binding.tvSignUpQuestion.movementMethod = LinkMovementMethod.getInstance()
 
     }
 
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when(item.itemId){
-            android.R.id.home ->{
-                onBackPressedDispatcher.onBackPressed()
-                return true
-            }
-        }
-
-        return super.onOptionsItemSelected(item)
-    }
+//    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+//        when(item.itemId){
+//            android.R.id.home ->{
+//                onBackPressedDispatcher.onBackPressed()
+//                return true
+//            }
+//        }
+//
+//        return super.onOptionsItemSelected(item)
+//    }
 }

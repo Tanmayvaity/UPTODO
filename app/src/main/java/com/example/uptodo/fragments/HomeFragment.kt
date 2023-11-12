@@ -49,6 +49,7 @@ class HomeFragment : Fragment() {
 
             Intent(view.context,LoginActivity::class.java).apply{
                 startActivity(this)
+                activity?.finish()
             }
 
         }
