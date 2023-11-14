@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "615906930625",
+    "project_id": "uptodo-86e4c",
+    "storage_bucket": "uptodo-86e4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615906930625:android:faaf6e265b8f0416928940",
+        "android_client_info": {
+          "package_name": "com.example.uptodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615906930625-msmadhj93fscj3sb1c27tmi0ufgjl9l5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uptodo",
+            "certificate_hash": "608afd2ecde6355e339a1683660498becbf69ba2"
+          }
+        },
+        {
+          "client_id": "615906930625-v97sqbrl0j4poguve89ncj33q95a2m1k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzFsEOxaNvw8BlkVrdJGsY5B3LHY5hQTg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615906930625-v97sqbrl0j4poguve89ncj33q95a2m1k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

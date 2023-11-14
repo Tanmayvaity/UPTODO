@@ -57,6 +57,7 @@
         android:src="@drawable/ic_add"
         android:contentDescription="Add habits"
         app:rippleColor="@color/gray"
+        android:id="@+id/fb_add"
        />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
