@@ -22,7 +22,6 @@ class HomeFragment : Fragment() {
 
     private val binding get() = _binding!!
 
-    private var colors : MutableList<Int>? = null
 
 
     override fun onCreateView(
@@ -39,20 +38,9 @@ class HomeFragment : Fragment() {
 
 
 
-        binding.trailTv.setGradientColor(
-            ContextCompat.getColor(view.context, R.color.greenish),
-            ContextCompat.getColor(view.context,R.color.purple)
-        )
 
 
-        binding.trailTv.setOnClickListener{
 
-            Intent(view.context,LoginActivity::class.java).apply{
-                startActivity(this)
-                activity?.finish()
-            }
-
-        }
 
 
 

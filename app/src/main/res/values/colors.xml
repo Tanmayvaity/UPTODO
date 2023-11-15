@@ -10,6 +10,9 @@
     <color name = "gray">#808080</color>
     <color name = "mariner">#3b5998</color>
     <color name = "fun_blue">#2F477A</color>
+    <color name = "light_black">#454545</color>
+
+    <color name = "very_dark">#161719</color>
 
 
 </resources>
