@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        WindowCompat.setDecorFitsSystemWindows(window, false)
+//        WindowCompat.setDecorFitsSystemWindows(window, false)
         binding.mainBottomNavigation.background = null
         binding.mainBottomNavigation.menu.getItem(2).isEnabled =false
 
@@ -148,7 +148,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
         supportFragmentManager.beginTransaction().replace(
-            R.id.fl_container, fragment
+            R.id.main_container, fragment
         ).commit()
     }
 }
