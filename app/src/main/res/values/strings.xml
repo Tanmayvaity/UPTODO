@@ -17,4 +17,7 @@
     <string name="username">Username</string>
     <string name="already_have_an_account_log_in">Already have an account? Log In</string>
     <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name = "undo_deleted">Undo recent deletion operation?</string>
+
+    <string name="new_goal_plans">Break your goals down into muliple tasks.\nDo this so that you can conveniently \ntrack your progress</string>
 </resources>
